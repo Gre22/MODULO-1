@@ -1,0 +1,120 @@
+body {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.tarjeta {
+    position: relative;
+    top: 90px;
+    width: 400px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: rgb(238, 231, 221); */
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 1px 4px 6px 6px rgba(0, 0, 0, 0.185);
+}
+
+.nombre-tarjeta{
+    color: rgb(24, 62, 71);
+    font-size:25px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+
+.texto-tarjeta{
+    color: rgba(0, 0, 0, 0.726);
+    border-bottom: solid 2px rgba(6, 74, 76, .17);
+    padding-bottom: 24px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.encabezado-tarjeta {
+    position: relative;
+    height: 120px;
+    text-align: center;
+}
+
+.imagen-cabecera {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 125px;
+}
+
+.imagen-perfil {
+    position: absolute;
+    top: 20px;
+    left: 110px;
+    width: 160px;
+    border-radius: 50%;
+    border: 4px solid rgb(238, 231, 221);
+}
+
+.cuerpo-tarjeta {
+    position: absolute;
+    top: 190px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.contacto {
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    text-align: center;
+    font-size: small;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(24, 62, 71);
+}
+
+.redes {
+    margin: 5px 0px 5px 0px;
+}
+
+.icono {
+    width: 30px;
+    margin: 5px;
+    margin-top: 8px;
+    filter:opacity(80%);
+    border-radius: 50%;    
+}
+
+.circulos a {
+    text-decoration: none;
+}
+
+.icono:hover {
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.726);
+    transition: .3s;
+}
+
+#boton {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 14px;
+    background-color: rgb(24, 62, 71);
+    padding: 3px;
+    font-size:x-small;
+    border-radius: 7%;
+    transition: .3s;
+    cursor: pointer;
+    border-style: none;
+}
+
+#boton:hover {
+    background: rgb(45, 122, 138);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.726);
+}
+
+#boton a {
+    text-decoration:none;
+    color: #DBDBDB;
+}
